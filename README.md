@@ -1,0 +1,1 @@
+This website is developed using HTML, JQuery, JavaScript and CSS. 

@@ -1,0 +1,264 @@
+/* -----------------Home Section-------------------------------------------------- */
+header {
+    background-image: url('../img/events-heavenly-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+
+.layer {
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header-caption {
+    text-align: center;
+}
+
+
+.header-caption h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.header-caption p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.sidebar {
+    background-color: #414658;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    overflow-y: auto;
+    transition: ease 0.6s;
+}
+
+
+.sidebar.active {
+    left: 0;
+}
+
+
+.closeBtn i {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    cursor: pointer;
+}
+
+
+.closeBtn i:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+
+.sidebar ul {
+    margin: 0;
+    padding: 20px 0px;
+}
+
+
+.sidebar ul li {
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+
+.sidebar ul li a:hover {
+    color: rgba(214, 46, 51, 0.4);
+
+}
+
+
+.menuBtn {
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50px;
+    width: 50x;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.menuBtn span {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+
+/*------------------------ Details Section------------------------------- */
+.singer-headline-one,
+.singer-headline-two,
+.singer-headline-three,
+.singer-headline-four {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #e68285;
+    padding: 5px 0px;
+    margin: 0;
+}
+
+
+.singer-caption-one,
+.singer-caption-two,
+.singer-caption-three,
+.singer-caption-four {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #ccc;
+    line-height: 1.8em;
+
+    padding: 25px 0px;
+    display: none;
+}
+
+
+
+/*------------------------ Duration Section------------------------------- */
+.duration-container {
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.duration-layer {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+
+#countdown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+/*------------------------ Contact Section------------------------------- */
+.contacts-details-headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.about-contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.contacts-details p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777;
+}
+
+
+#mySpan {
+    color: #d62e33;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+
+}
+
+
+.contact-icon {
+    color: #777;
+}
+
+
+.social-links {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+
+
+.social-icon {
+    color: #ccc;
+    font-size: 19px;
+}
+
+
+.social-icon:hover {
+    color: #fff;
+}
+
+
+.social-links:hover {
+    background-color: #d62e33;
+    border: 1px solid rgba(204, 204, 204, 0);
+    color: #fff;
+}
+
+
+.social-icon:hover {
+    color: #fff;
+}
+
+
+.send-button {
+    border: none;
+    color: #fff;
+    background-color: #d62e33;
+    padding: 10px 20px;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
